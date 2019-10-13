@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Amazon description word count
+// @name         Amazon description-box word count
 // @namespace    https://github.com/MrMarble/Amazon-word-count-UserScript
-// @version      0.1
-// @description  Helps you writting amazon (it only works on amazon e for now)
+// @version      0.2
+// @description  Helps you writting amazon reviews (only works on amazon es for now)
 // @author       MrMarble
 // @match        https://www.amazon.es/review/review-your-purchases/*
 // @require      https://gist.githubusercontent.com/MrMarble/27edd304426f1fd72e347d2e8b6d65cd/raw/8d35d76f1ac884b29e6084ecedc12031890e404f/waitFor.js
