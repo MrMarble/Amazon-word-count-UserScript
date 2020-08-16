@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Amazon description-box word count
 // @namespace    https://github.com/MrMarble/Amazon-word-count-UserScript
-// @version      0.2
+// @version      0.3
 // @description  Helps you writting amazon reviews (only works on amazon es for now)
 // @author       MrMarble
 // @match        https://www.amazon.es/review/review-your-purchases/*
@@ -40,5 +40,5 @@
             });
         }
     }
-    waitFor('#ryp-review-text', init);
+    waitFor('.a-input-text-wrapper', init);
 })();
