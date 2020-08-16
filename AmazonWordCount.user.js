@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Amazon description-box word count
 // @namespace    https://github.com/MrMarble/Amazon-word-count-UserScript
-// @version      0.3
+// @version      0.4
 // @description  Helps you writting amazon reviews (only works on amazon es for now)
 // @author       MrMarble
 // @match        https://www.amazon.es/review/review-your-purchases/*
@@ -16,7 +16,7 @@
     'use strict';
 
     const init = function () {
-        const descriptionBox = document.getElementById('ryp-review-text');
+        const descriptionBox = document.querySelector('.a-input-text-wrapper textarea');
 
         const createElement = function() {
             let container = document.createElement('div');
